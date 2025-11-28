@@ -1,0 +1,1674 @@
+body{
+	background-color: #515151;
+}
+header{
+	padding-top: 10px;
+	background: black;
+	margin-left: -8px;
+	margin-top: -30px;
+	margin-right: -8px;
+	height: 150px;
+}
+h1{
+	font-family: serif;
+	font-size: 45px;
+	margin-left: -100px;
+	color: white;
+}
+nav{
+	padding: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 5px;
+}
+.dd{
+	position: relative;
+}
+.dd2{
+	position: relative;
+}
+.dd2 img{
+	position: absolute;
+	z-index: 0;
+	margin-top: -102px;
+	margin-left: 300px;
+}
+.d1{
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	justify-content: space-between;
+	padding: 10px 40px;
+	padding-left: 120px;
+	padding-top: 2px;
+}
+.prim{
+	margin-top: -190px;
+	margin-left: 450px;
+	color: white;
+	font-size: 15px;
+}
+small{
+	color: transparent;
+}
+.d0{
+	margin-left: 180px;
+	position: absolute;
+	margin-bottom: 75px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+input{
+	height: 22px;
+	width: 500px;
+}
+.d0 button{
+	background: transparent;
+	border: transparent;
+	margin-bottom: -3px;
+	cursor: pointer;
+}
+.pp{
+	color: transparent;
+	margin-bottom: -100px;
+	margin-left: 215px;
+}
+.d2{
+	position: relative;
+}
+.d2 .i2{
+	position: absolute;
+	z-index: 0;
+	margin-left: 220px;
+	margin-top: -55px;
+	opacity: 0.0005;
+}
+.d2 .i3{
+	position: absolute;
+	z-index: 0;
+	margin-left: 325px;
+	margin-top: -55px;
+	opacity: 0.0005;
+}
+
+
+/*Romance*/
+.menu_principal{
+	list-style: none; /*Elimina los puntos de la lista*/
+	padding: 0;
+	background-color: #171718;
+	margin-left: -8px;
+	margin-right: -8px;
+	margin-top: 0px;
+	display: flex;
+}
+.menu_principal li{
+	position: relative;
+}
+.dropdown-content{
+	display: none; /*Oculta el contenido por defecto*/
+	position: absolute;
+	top: 100%;
+	left: -73px;
+	background-color: beige; /*Fondo para el menu desplegable*/
+	z-index: 10;
+	box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+	width: 1300px;
+}
+.dropdown-content li{
+	display: flex; /*Muestra los elementos en una columna*/
+}
+/*Muestra el contenido desplegable cuando se pasa el raton sobre ...*/
+.dropdown:hover .dropdown-content{
+	display: block;
+}
+/*Estilos para los enlaces*/
+.menu_principal a{
+	text-decoration: none;
+	color: black;
+	padding: 15px 20px;
+	display: block; /*Hace que el enlace ocupe todo el espacio*/
+}
+.menu_principal a:hover{
+	background-color: peachpuff;
+}
+.dropdown-content a{
+	padding: 12px 16px;
+	display: flex;
+}
+.dropdown-content a:hover{
+	background-color: lightgray; /*Color al pasar el reton*/
+}
+.dropdown > a{
+	font-size: 14px;
+	color: white;
+}
+.menu-row {
+  display: flex;
+  justify-content: space-between;
+}
+.menu-column {
+  width: 22%;
+}
+.menu-column h3 {
+  font-size: 16px;
+  color: #002147;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #004080;
+  padding-bottom: 5px;
+  margin-top: -5px;
+}
+.menu-column ul {
+  list-style: none;
+  padding: 0;
+}
+.menu-column li {
+  margin: 8px 0;
+}
+.menu-column a {
+  color: #333;
+  text-decoration: none;
+}
+.menu-column a:hover {
+  color: #004080;
+  text-decoration: underline;
+}
+
+
+
+#imagen1{
+	margin-left: 20px;
+  margin-top: 20px;
+}
+
+#texto1{
+  color: black;
+  font-size: 30px;
+  margin-top: 1px;
+
+}
+
+#texto2{
+  color: red;
+  font-size: 20px;
+  margin-top: 9px;
+
+}
+#texto3{
+ color: gray;
+  font-size: 25px;
+  margin-top: 3px;
+ 
+}
+#texto4{
+ color: black;
+  font-size: 20px;
+ 
+}
+#rt1{
+  display: flex;
+  list-style-type: none;
+  margin-top: 0px;
+}
+
+/*Drama*/
+.menu_principal4{
+	list-style: none; /*Elimina los puntos de la lista*/
+	padding: 0;
+	background-color: darkgreen;
+	margin-left: -8px;
+	margin-right: -8px;
+	margin-top: 0px;
+	display: flex;
+}
+.menu_principal4 li{
+	position: relative;
+}
+.dropdown-content4{
+	display: none; /*Oculta el contenido por defecto*/
+	position: absolute;
+	top: 100%;
+	left: -166px;
+	background-color: beige; /*Fondo para el menu desplegable*/
+	z-index: 10;
+	box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+	width: 1300px;
+}
+.dropdown-content4 li{
+	display: flex; /*Muestra los elementos en una columna*/
+}
+/*Muestra el contenido desplegable cuando se pasa el raton sobre ...*/
+.dropdown4:hover .dropdown-content4{
+	display: block;
+}
+/*Estilos para los enlaces*/
+.menu_principal4 a{
+	text-decoration: none;
+	color: black;
+	padding: 15px 20px;
+	display: block; /*Hace que el enlace ocupe todo el espacio*/
+}
+.menu_principal4 a:hover{
+	background-color: peachpuff;
+}
+.dropdown-content4 a{
+	padding: 12px 16px;
+	display: flex;
+}
+.dropdown-content4 a:hover{
+	background-color: lightgray; /*Color al pasar el reton*/
+}
+.dropdown4 > a{
+	font-size: 14px;
+	color: white;
+}
+.menu-row4 {
+  display: flex;
+  justify-content: space-between;
+}
+.menu-column4 {
+  width: 22%;
+}
+.menu-column4 h3 {
+  font-size: 16px;
+  color: #002147;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #004080;
+  padding-bottom: 5px;
+  margin-top: -5px;
+}
+.menu-column4 ul {
+  list-style: none;
+  padding: 0;
+}
+.menu-column4 li {
+  margin: 8px 0;
+}
+.menu-column4 a {
+  color: #333;
+  text-decoration: none;
+}
+.menu-column4 a:hover {
+  color: #004080;
+  text-decoration: underline;
+}
+
+/*Accion*/
+.menu_principal5{
+	list-style: none; /*Elimina los puntos de la lista*/
+	padding: 0;
+	background-color: darkgreen;
+	margin-left: -8px;
+	margin-right: -8px;
+	margin-top: 0px;
+	display: flex;
+}
+.menu_principal5 li{
+	position: relative;
+}
+.dropdown-content5{
+	display: none; /*Oculta el contenido por defecto*/
+	position: absolute;
+	top: 100%;
+	left: -244px;
+	background-color: beige; /*Fondo para el menu desplegable*/
+	z-index: 10;
+	box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+	width: 1300px;
+}
+.dropdown-content5 li{
+	display: flex; /*Muestra los elementos en una columna*/
+}
+/*Muestra el contenido desplegable cuando se pasa el raton sobre ...*/
+.dropdown5:hover .dropdown-content5{
+	display: block;
+}
+/*Estilos para los enlaces*/
+.menu_principal5 a{
+	text-decoration: none;
+	color: black;
+	padding: 15px 20px;
+	display: block; /*Hace que el enlace ocupe todo el espacio*/
+}
+.menu_principal5 a:hover{
+	background-color: peachpuff;
+}
+.dropdown-content5 a{
+	padding: 12px 16px;
+	display: flex;
+}
+.dropdown-content5 a:hover{
+	background-color: lightgray; /*Color al pasar el reton*/
+}
+.dropdown5 > a{
+	font-size: 14px;
+	color: white;
+}
+.menu-row5 {
+  display: flex;
+  justify-content: space-between;
+}
+.menu-column5 {
+  width: 22%;
+}
+.menu-column5 h3 {
+  font-size: 16px;
+  color: #002147;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #004080;
+  padding-bottom: 5px;
+  margin-top: -5px;
+}
+.menu-column5 ul {
+  list-style: none;
+  padding: 0;
+}
+.menu-column5 li {
+  margin: 8px 0;
+}
+.menu-column5 a {
+  color: #333;
+  text-decoration: none;
+}
+.menu-column5 a:hover {
+  color: #004080;
+  text-decoration: underline;
+}
+
+
+/*Ciencia Ficcion*/
+.menu_principal6{
+	list-style: none; /*Elimina los puntos de la lista*/
+	padding: 0;
+	background-color: darkgreen;
+	margin-left: -8px;
+	margin-right: -8px;
+	margin-top: 0px;
+	display: flex;
+}
+.menu_principal6 li{
+	position: relative;
+}
+.dropdown-content6{
+	display: none; /*Oculta el contenido por defecto*/
+	position: absolute;
+	top: 100%;
+	left: -324.5px;
+	background-color: beige; /*Fondo para el menu desplegable*/
+	z-index: 10;
+	box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+	width: 1300px;
+}
+.dropdown-content6 li{
+	display: flex; /*Muestra los elementos en una columna*/
+}
+/*Muestra el contenido desplegable cuando se pasa el raton sobre ...*/
+.dropdown6:hover .dropdown-content6{
+	display: block;
+}
+/*Estilos para los enlaces*/
+.menu_principal6 a{
+	text-decoration: none;
+	color: black;
+	padding: 15px 20px;
+	display: block; /*Hace que el enlace ocupe todo el espacio*/
+}
+.menu_principal6 a:hover{
+	background-color: peachpuff;
+}
+.dropdown-content6 a{
+	padding: 12px 16px;
+	display: flex;
+}
+.dropdown-content6 a:hover{
+	background-color: lightgray; /*Color al pasar el reton*/
+}
+.dropdown6 > a{
+	font-size: 14px;
+	color: white;
+}
+.menu-row6 {
+  display: flex;
+  justify-content: space-between;
+}
+.menu-column6 {
+  width: 22%;
+}
+.menu-column6 h3 {
+  font-size: 16px;
+  color: #002147;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #004080;
+  padding-bottom: 5px;
+  margin-top: -5px;
+}
+.menu-column6 ul {
+  list-style: none;
+  padding: 0;
+}
+.menu-column6 li {
+  margin: 8px 0;
+}
+.menu-column6 a {
+  color: #333;
+  text-decoration: none;
+}
+.menu-column6 a:hover {
+  color: #004080;
+  text-decoration: underline;
+}
+
+/*Fantasia*/
+.menu_principal7{
+	list-style: none; /*Elimina los puntos de la lista*/
+	padding: 0;
+	background-color: darkgreen;
+	margin-left: -8px;
+	margin-right: -8px;
+	margin-top: 0px;
+	display: flex;
+}
+.menu_principal7 li{
+	position: relative;
+}
+.dropdown-content7{
+	display: none; /*Oculta el contenido por defecto*/
+	position: absolute;
+	top: 100%;
+	left: -452.8px;
+	background-color: beige; /*Fondo para el menu desplegable*/
+	z-index: 10;
+	box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+	width: 1300px;
+}
+.dropdown-content7 li{
+	display: flex; /*Muestra los elementos en una columna*/
+}
+/*Muestra el contenido desplegable cuando se pasa el raton sobre ...*/
+.dropdown7:hover .dropdown-content7{
+	display: block;
+}
+/*Estilos para los enlaces*/
+.menu_principal7 a{
+	text-decoration: none;
+	color: black;
+	padding: 15px 20px;
+	display: block; /*Hace que el enlace ocupe todo el espacio*/
+}
+.menu_principal7 a:hover{
+	background-color: peachpuff;
+}
+.dropdown-content7 a{
+	padding: 12px 16px;
+	display: flex;
+}
+.dropdown-content7 a:hover{
+	background-color: lightgray; /*Color al pasar el reton*/
+}
+.dropdown7 > a{
+	font-size: 14px;
+	color: white;
+}
+.menu-row7 {
+  display: flex;
+  justify-content: space-between;
+}
+.menu-column7 {
+  width: 22%;
+}
+.menu-column7 h3 {
+  font-size: 16px;
+  color: #002147;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #004080;
+  padding-bottom: 5px;
+  margin-top: -5px;
+}
+.menu-column7 ul {
+  list-style: none;
+  padding: 0;
+}
+.menu-column7 li {
+  margin: 8px 0;
+}
+.menu-column7 a {
+  color: #333;
+  text-decoration: none;
+}
+.menu-column7 a:hover {
+  color: #004080;
+  text-decoration: underline;
+}
+
+/*Aventura*/
+.menu_principal8{
+	list-style: none; /*Elimina los puntos de la lista*/
+	padding: 0;
+	background-color: darkgreen;
+	margin-left: -8px;
+	margin-right: -8px;
+	margin-top: 0px;
+	display: flex;
+}
+.menu_principal8 li{
+	position: relative;
+}
+.dropdown-content8{
+	display: none; /*Oculta el contenido por defecto*/
+	position: absolute;
+	top: 100%;
+	left: -539.4px;
+	background-color: beige; /*Fondo para el menu desplegable*/
+	z-index: 10;
+	box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+	width: 1300px;
+}
+.dropdown-content8 li{
+	display: flex; /*Muestra los elementos en una columna*/
+}
+/*Muestra el contenido desplegable cuando se pasa el raton sobre ...*/
+.dropdown8:hover .dropdown-content8{
+	display: block;
+}
+/*Estilos para los enlaces*/
+.menu_principal8 a{
+	text-decoration: none;
+	color: black;
+	padding: 15px 20px;
+	display: block; /*Hace que el enlace ocupe todo el espacio*/
+}
+.menu_principal8 a:hover{
+	background-color: peachpuff;
+}
+.dropdown-content8 a{
+	padding: 12px 16px;
+	display: flex;
+}
+.dropdown-content8 a:hover{
+	background-color: lightgray; /*Color al pasar el reton*/
+}
+.dropdown8 > a{
+	font-size: 14px;
+	color: white;
+}
+.menu-row8 {
+  display: flex;
+  justify-content: space-between;
+}
+.menu-column8 {
+  width: 22%;
+}
+.menu-column8 h3 {
+  font-size: 16px;
+  color: #002147;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #004080;
+  padding-bottom: 5px;
+  margin-top: -5px;
+}
+.menu-column8 ul {
+  list-style: none;
+  padding: 0;
+}
+.menu-column8 li {
+  margin: 8px 0;
+}
+.menu-column8 a {
+  color: #333;
+  text-decoration: none;
+}
+.menu-column8 a:hover {
+  color: #004080;
+  text-decoration: underline;
+}
+
+/*Terror*/
+.menu_principal9{
+	list-style: none; /*Elimina los puntos de la lista*/
+	padding: 0;
+	background-color: darkgreen;
+	margin-left: -8px;
+	margin-right: -8px;
+	margin-top: 0px;
+	display: flex;
+}
+.menu_principal9 li{
+	position: relative;
+}
+.dropdown-content9{
+	display: none; /*Oculta el contenido por defecto*/
+	position: absolute;
+	top: 100%;
+	left: -630.4px;
+	background-color: beige; /*Fondo para el menu desplegable*/
+	z-index: 10;
+	box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+	width: 1300px;
+}
+.dropdown-content9 li{
+	display: flex; /*Muestra los elementos en una columna*/
+}
+/*Muestra el contenido desplegable cuando se pasa el raton sobre ...*/
+.dropdown9:hover .dropdown-content9{
+	display: block;
+}
+/*Estilos para los enlaces*/
+.menu_principal9 a{
+	text-decoration: none;
+	color: black;
+	padding: 15px 20px;
+	display: block; /*Hace que el enlace ocupe todo el espacio*/
+}
+.menu_principal9 a:hover{
+	background-color: peachpuff;
+}
+.dropdown-content9 a{
+	padding: 12px 16px;
+	display: flex;
+}
+.dropdown-content9 a:hover{
+	background-color: lightgray; /*Color al pasar el reton*/
+}
+.dropdown9 > a{
+	font-size: 14px;
+	color: white;
+}
+.menu-row9 {
+  display: flex;
+  justify-content: space-between;
+}
+.menu-column9 {
+  width: 22%;
+}
+.menu-column9 h3 {
+  font-size: 16px;
+  color: #002147;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #004080;
+  padding-bottom: 5px;
+  margin-top: -5px;
+}
+.menu-column9 ul {
+  list-style: none;
+  padding: 0;
+}
+.menu-column9 li {
+  margin: 8px 0;
+}
+.menu-column9 a {
+  color: #333;
+  text-decoration: none;
+}
+.menu-column9 a:hover {
+  color: #004080;
+  text-decoration: underline;
+}
+
+/*Suspenso*/
+.menu_principal10{
+	list-style: none; /*Elimina los puntos de la lista*/
+	padding: 0;
+	background-color: darkgreen;
+	margin-left: -8px;
+	margin-right: -8px;
+	margin-top: 0px;
+	display: flex;
+}
+.menu_principal10 li{
+	position: relative;
+}
+.dropdown-content10{
+	display: none; /*Oculta el contenido por defecto*/
+	position: absolute;
+	top: 100%;
+	left: -705.2px;
+	background-color: beige; /*Fondo para el menu desplegable*/
+	z-index: 10;
+	box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+	width: 1300px;
+}
+.dropdown-content10 li{
+	display: flex; /*Muestra los elementos en una columna*/
+}
+/*Muestra el contenido desplegable cuando se pasa el raton sobre ...*/
+.dropdown10:hover .dropdown-content10{
+	display: block;
+}
+/*Estilos para los enlaces*/
+.menu_principal10 a{
+	text-decoration: none;
+	color: black;
+	padding: 15px 20px;
+	display: block; /*Hace que el enlace ocupe todo el espacio*/
+}
+.menu_principal10 a:hover{
+	background-color: peachpuff;
+}
+.dropdown-content10 a{
+	padding: 12px 16px;
+	display: flex;
+}
+.dropdown-content10 a:hover{
+	background-color: lightgray; /*Color al pasar el reton*/
+}
+.dropdown10 > a{
+	font-size: 14px;
+	color: white;
+}
+.menu-row10 {
+  display: flex;
+  justify-content: space-between;
+}
+.menu-column10 {
+  width: 22%;
+}
+.menu-column10 h3 {
+  font-size: 16px;
+  color: #002147;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #004080;
+  padding-bottom: 5px;
+  margin-top: -5px;
+}
+.menu-column10 ul {
+  list-style: none;
+  padding: 0;
+}
+.menu-column10 li {
+  margin: 8px 0;
+}
+.menu-column10 a {
+  color: #333;
+  text-decoration: none;
+}
+.menu-column10 a:hover {
+  color: #004080;
+  text-decoration: underline;
+}
+
+/*Comedia*/
+.menu_principal11{
+	list-style: none; /*Elimina los puntos de la lista*/
+	padding: 0;
+	background-color: darkgreen;
+	margin-left: -8px;
+	margin-right: -8px;
+	margin-top: 0px;
+	display: flex;
+}
+.menu_principal11 li{
+	position: relative;
+}
+.dropdown-content11{
+	display: none; /*Oculta el contenido por defecto*/
+	position: absolute;
+	top: 100%;
+	left: -798px;
+	background-color: beige; /*Fondo para el menu desplegable*/
+	z-index: 10;
+	box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+	width: 1300px;
+}
+.dropdown-content11 li{
+	display: flex; /*Muestra los elementos en una columna*/
+}
+/*Muestra el contenido desplegable cuando se pasa el raton sobre ...*/
+.dropdown11:hover .dropdown-content11{
+	display: block;
+}
+/*Estilos para los enlaces*/
+.menu_principal11 a{
+	text-decoration: none;
+	color: black;
+	padding: 15px 20px;
+	display: block; /*Hace que el enlace ocupe todo el espacio*/
+}
+.menu_principal11 a:hover{
+	background-color: peachpuff;
+}
+.dropdown-content11 a{
+	padding: 12px 16px;
+	display: flex;
+}
+.dropdown-content11 a:hover{
+	background-color: lightgray; /*Color al pasar el reton*/
+}
+.dropdown11 > a{
+	font-size: 14px;
+	color: white;
+}
+.menu-row11 {
+  display: flex;
+  justify-content: space-between;
+}
+.menu-column11 {
+  width: 22%;
+}
+.menu-column11 h3 {
+  font-size: 16px;
+  color: #002147;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #004080;
+  padding-bottom: 5px;
+  margin-top: -5px;
+}
+.menu-column11 ul {
+  list-style: none;
+  padding: 0;
+}
+.menu-column11 li {
+  margin: 8px 0;
+}
+.menu-column11 a {
+  color: #333;
+  text-decoration: none;
+}
+.menu-column11 a:hover {
+  color: #004080;
+  text-decoration: underline;
+}
+
+/*Animacion*/
+.menu_principal12{
+	list-style: none; /*Elimina los puntos de la lista*/
+	padding: 0;
+	background-color: darkgreen;
+	margin-left: -8px;
+	margin-right: -8px;
+	margin-top: 0px;
+	display: flex;
+}
+.menu_principal12 li{
+	position: relative;
+}
+.dropdown-content12{
+	display: none; /*Oculta el contenido por defecto*/
+	position: absolute;
+	top: 100%;
+	left: -888.6px;
+	background-color: beige; /*Fondo para el menu desplegable*/
+	z-index: 10;
+	box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+	width: 1300px;
+}
+.dropdown-content12 li{
+	display: flex; /*Muestra los elementos en una columna*/
+}
+/*Muestra el contenido desplegable cuando se pasa el raton sobre ...*/
+.dropdown12:hover .dropdown-content12{
+	display: block;
+}
+/*Estilos para los enlaces*/
+.menu_principal12 a{
+	text-decoration: none;
+	color: black;
+	padding: 15px 20px;
+	display: block; /*Hace que el enlace ocupe todo el espacio*/
+}
+.menu_principal12 a:hover{
+	background-color: peachpuff;
+}
+.dropdown-content12 a{
+	padding: 12px 16px;
+	display: flex;
+}
+.dropdown-content12 a:hover{
+	background-color: lightgray; /*Color al pasar el reton*/
+}
+.dropdown12 > a{
+	font-size: 14px;
+	color: white;
+}
+.menu-row12 {
+  display: flex;
+  justify-content: space-between;
+}
+.menu-column12 {
+  width: 22%;
+}
+.menu-column12 h3 {
+  font-size: 16px;
+  color: #002147;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #004080;
+  padding-bottom: 5px;
+  margin-top: -5px;
+}
+.menu-column12 ul {
+  list-style: none;
+  padding: 0;
+}
+.menu-column12 li {
+  margin: 8px 0;
+}
+.menu-column12 a {
+  color: #333;
+  text-decoration: none;
+}
+.menu-column12 a:hover {
+  color: #004080;
+  text-decoration: underline;
+}
+
+/*Musical*/
+.menu_principal13{
+	list-style: none; /*Elimina los puntos de la lista*/
+	padding: 0;
+	background-color: darkgreen;
+	margin-left: -8px;
+	margin-right: -8px;
+	margin-top: 0px;
+	display: flex;
+}
+.menu_principal13 li{
+	position: relative;
+}
+.dropdown-content13{
+	display: none; /*Oculta el contenido por defecto*/
+	position: absolute;
+	top: 100%;
+	left: -991px;
+	background-color: beige; /*Fondo para el menu desplegable*/
+	z-index: 10;
+	box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+	width: 1300px;
+}
+.dropdown-content13 li{
+	display: flex; /*Muestra los elementos en una columna*/
+}
+/*Muestra el contenido desplegable cuando se pasa el raton sobre ...*/
+.dropdown13:hover .dropdown-content13{
+	display: block;
+}
+/*Estilos para los enlaces*/
+.menu_principal13 a{
+	text-decoration: none;
+	color: black;
+	padding: 15px 20px;
+	display: block; /*Hace que el enlace ocupe todo el espacio*/
+}
+.menu_principal13 a:hover{
+	background-color: peachpuff;
+}
+.dropdown-content13 a{
+	padding: 12px 16px;
+	display: flex;
+}
+.dropdown-content13 a:hover{
+	background-color: lightgray; /*Color al pasar el reton*/
+}
+.dropdown13 > a{
+	font-size: 14px;
+	color: white;
+}
+.menu-row13 {
+  display: flex;
+  justify-content: space-between;
+}
+.menu-column13 {
+  width: 22%;
+}
+.menu-column13 h3 {
+  font-size: 16px;
+  color: #002147;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #004080;
+  padding-bottom: 5px;
+  margin-top: -5px;
+}
+.menu-column13 ul {
+  list-style: none;
+  padding: 0;
+}
+.menu-column13 li {
+  margin: 8px 0;
+}
+.menu-column13 a {
+  color: #333;
+  text-decoration: none;
+}
+.menu-column13 a:hover {
+  color: #004080;
+  text-decoration: underline;
+}
+
+/*Documental*/
+.menu_principal14{
+	list-style: none; /*Elimina los puntos de la lista*/
+	padding: 0;
+	background-color: darkgreen;
+	margin-left: -8px;
+	margin-right: -8px;
+	margin-top: 0px;
+	display: flex;
+}
+.menu_principal14 li{
+	position: relative;
+}
+.dropdown-content14{
+	display: none; /*Oculta el contenido por defecto*/
+	position: absolute;
+	top: 100%;
+	left: -1076px;
+	background-color: beige; /*Fondo para el menu desplegable*/
+	z-index: 10;
+	box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+	width: 1300px;
+}
+.dropdown-content14 li{
+	display: flex; /*Muestra los elementos en una columna*/
+}
+/*Muestra el contenido desplegable cuando se pasa el raton sobre ...*/
+.dropdown14:hover .dropdown-content14{
+	display: block;
+}
+/*Estilos para los enlaces*/
+.menu_principal14 a{
+	text-decoration: none;
+	color: black;
+	padding: 15px 20px;
+	display: block; /*Hace que el enlace ocupe todo el espacio*/
+}
+.menu_principal14 a:hover{
+	background-color: peachpuff;
+}
+.dropdown-content14 a{
+	padding: 12px 16px;
+	display: flex;
+}
+.dropdown-content14 a:hover{
+	background-color: lightgray; /*Color al pasar el reton*/
+}
+.dropdown14 > a{
+	font-size: 14px;
+	color: white;
+}
+.menu-row14 {
+  display: flex;
+  justify-content: space-between;
+}
+.menu-column14 {
+  width: 22%;
+}
+.menu-column14 h3 {
+  font-size: 16px;
+  color: #002147;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #004080;
+  padding-bottom: 5px;
+  margin-top: -5px;
+}
+.menu-column14 ul {
+  list-style: none;
+  padding: 0;
+}
+.menu-column14 li {
+  margin: 8px 0;
+}
+.menu-column14 a {
+  color: #333;
+  text-decoration: none;
+}
+.menu-column14 a:hover {
+  color: #004080;
+  text-decoration: underline;
+}
+
+/*Belico*/
+.menu_principal15{
+	list-style: none; /*Elimina los puntos de la lista*/
+	padding: 0;
+	background-color: darkgreen;
+	margin-left: -8px;
+	margin-right: -8px;
+	margin-top: 0px;
+	display: flex;
+}
+.menu_principal15 li{
+	position: relative;
+}
+.dropdown-content15{
+	display: none; /*Oculta el contenido por defecto*/
+	position: absolute;
+	top: 100%;
+	left: -1169px;
+	background-color: beige; /*Fondo para el menu desplegable*/
+	z-index: 10;
+	box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+	width: 1300px;
+}
+.dropdown-content15 li{
+	display: flex; /*Muestra los elementos en una columna*/
+}
+/*Muestra el contenido desplegable cuando se pasa el raton sobre ...*/
+.dropdown15:hover .dropdown-content15{
+	display: block;
+}
+/*Estilos para los enlaces*/
+.menu_principal15 a{
+	text-decoration: none;
+	color: black;
+	padding: 15px 20px;
+	display: block; /*Hace que el enlace ocupe todo el espacio*/
+}
+.menu_principal15 a:hover{
+	background-color: peachpuff;
+}
+.dropdown-content15 a{
+	padding: 12px 16px;
+	display: flex;
+}
+.dropdown-content15 a:hover{
+	background-color: lightgray; /*Color al pasar el reton*/
+}
+.dropdown15 > a{
+	font-size: 14px;
+	color: white;
+}
+.menu-row15 {
+  display: flex;
+  justify-content: space-between;
+}
+.menu-column15 {
+  width: 22%;
+}
+.menu-column15 h3 {
+  font-size: 16px;
+  color: #002147;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #004080;
+  padding-bottom: 5px;
+  margin-top: -5px;
+}
+.menu-column15 ul {
+  list-style: none;
+  padding: 0;
+}
+.menu-column15 li {
+  margin: 8px 0;
+}
+.menu-column15 a {
+  color: #333;
+  text-decoration: none;
+}
+.menu-column15 a:hover {
+  color: #004080;
+  text-decoration: underline;
+}
+
+main{
+	width: 800px;
+	margin-left: 400px;
+	margin-top: -210px;
+}
+main p{
+	font-size: 30px;
+	color: black;
+}
+.ima{
+	margin-left: 70px;
+	margin-top: 120px;
+}
+footer{
+	background-color: #171718;
+	color: white;
+	height: 350px;
+	margin-top: 300px;
+	font-size: 20px;
+}
+.gen1{
+	margin-top: 30px;
+	margin-left: 150px;
+}
+h2{
+	position: absolute;
+	padding-left: 800px;
+	margin-top: -400px;
+}
+.y1{
+	position: absolute;
+	padding-left: 830px;
+	margin-top: -400px;
+}
+.y3{
+	position: absolute;
+	padding-left: 780px;
+	margin-top: -400px;
+}
+.y4{
+	position: absolute;
+	padding-left: 830px;
+	margin-top: -400px;
+}
+.y5{
+	position: absolute;
+	padding-left: 700px;
+	margin-top: -400px;
+}
+.y6{
+	position: absolute;
+	padding-left: 820px;
+	margin-top: -400px;
+}
+.y7{
+	position: absolute;
+	padding-left: 820px;
+	margin-top: -400px;
+}
+.y8{
+	position: absolute;
+	padding-left: 770px;
+	margin-top: -400px;
+}
+.y9{
+	position: absolute;
+	padding-left: 760px;
+	margin-top: -400px;
+}
+.y10{
+	position: absolute;
+	padding-left: 780px;
+	margin-top: -400px;
+}
+.y11{
+	position: absolute;
+	padding-left: 860px;
+	margin-top: -400px;
+}
+.y12{
+	position: absolute;
+	padding-left: 860px;
+	margin-top: -400px;
+}
+
+
+
+
+
+
+
+
+
+.genMain{
+	width: 680px;
+	margin-left: 580px;
+	margin-top: -310px;
+}
+.gen2{
+	color: black;
+	font-size: 18px;
+}
+.cla1{
+	margin-left: 790px;
+	margin-top: -180px;
+	color: black;
+	font-size: 16px;
+}
+.cla2{
+	margin-left: 790px;
+	margin-top: -150px;
+	color: black;
+	font-size: 16px;
+}
+.cla3{
+	margin-left: 790px;
+	margin-top: -110px;
+	color: black;
+	font-size: 16px;
+}
+.cla4{
+	margin-left: 800px;
+	margin-top: -110px;
+	color: black;
+	font-size: 16px;
+}
+.cla5{
+	margin-left: 785px;
+	margin-top: -130px;
+	color: black;
+	font-size: 16px;
+}
+.cla6{
+	margin-left: 797px;
+	margin-top: -150px;
+	color: black;
+	font-size: 16px;
+}
+.cla7{
+	margin-left: 797px;
+	margin-top: -120px;
+	color: black;
+	font-size: 16px;
+}
+.cla8{
+	margin-left: 790px;
+	margin-top: -170px;
+	color: black;
+	font-size: 16px;
+}
+.cla9{
+	margin-left: 790px;
+	margin-top: -120px;
+	color: black;
+	font-size: 16px;
+}
+.cla10{
+	margin-left: 790px;
+	margin-top: -120px;
+	color: black;
+	font-size: 16px;
+}
+.cla11{
+	margin-left: 790px;
+	margin-top: -160px;
+	color: black;
+	font-size: 16px;
+}
+.cla12{
+	margin-left: 790px;
+	margin-top: -160px;
+	color: black;
+	font-size: 16px;
+}
+.cla13{
+	margin-left: 800px;
+	margin-top: -130px;
+	color: black;
+	font-size: 16px;
+}
+.cla14{
+	margin-left: 800px;
+	margin-top: -100px;
+	color: black;
+	font-size: 16px;
+}
+.cla15{
+	margin-left: 780px;
+	margin-top: -150px;
+	color: black;
+	font-size: 16px;
+}
+.cla16{
+	margin-left: 830px;
+	margin-top: -150px;
+	color: black;
+	font-size: 16px;
+}
+.cla17{
+	margin-left: 800px;
+	margin-top: -100px;
+	color: black;
+	font-size: 16px;
+}
+.cla18{
+	margin-left: 840px;
+	margin-top: -100px;
+	color: black;
+	font-size: 16px;
+}
+.cla19{
+	margin-left: 780px;
+	margin-top: -140px;
+	color: black;
+	font-size: 16px;
+}
+.cla20{
+	margin-left: 750px;
+	margin-top: -120px;
+	color: black;
+	font-size: 16px;
+}
+.cla21{
+	margin-left: 805px;
+	margin-top: -120px;
+	color: black;
+	font-size: 16px;
+}
+.cla22{
+	margin-left: 750px;
+	margin-top: -130px;
+	color: black;
+	font-size: 16px;
+}
+.cla23{
+	margin-left: 770px;
+	margin-top: -130px;
+	color: black;
+	font-size: 16px;
+}
+.cla24{
+	margin-left: 820px;
+	margin-top: -150px;
+	color: black;
+	font-size: 16px;
+}
+.cla25{
+	margin-left: 780px;
+	margin-top: -130px;
+	color: black;
+	font-size: 16px;
+}
+.cla26{
+	margin-left: 740px;
+	margin-top: -200px;
+	color: black;
+	font-size: 16px;
+}
+.cla27{
+	margin-left: 790px;
+	margin-top: -150px;
+	color: black;
+	font-size: 16px;
+}
+.cla28{
+	margin-left: 750px;
+	margin-top: -110px;
+	color: black;
+	font-size: 16px;
+}
+.cla29{
+	margin-left: 790px;
+	margin-top: -200px;
+	color: black;
+	font-size: 16px;
+}
+.cla30{
+	margin-left: 810px;
+	margin-top: -100px;
+	color: black;
+	font-size: 16px;
+}
+.cla31{
+	margin-left: 850px;
+	margin-top: -130px;
+	color: black;
+	font-size: 16px;
+}
+.cla32{
+	margin-left: 820px;
+	margin-top: -120px;
+	color: black;
+	font-size: 16px;
+}
+.cla33{
+	margin-left: 790px;
+	margin-top: -150px;
+	color: black;
+	font-size: 16px;
+}
+.cla34{
+	margin-left: 790px;
+	margin-top: -120px;
+	color: black;
+	font-size: 16px;
+}
+
+
+
+
+
+
+table{
+	margin-top: 200px;
+	margin-left: 780px;
+}
+.espacio{
+	height: 15px;
+}
+.co a{
+	text-decoration: none;
+	color: white;
+}
+.co a:hover{
+	color: firebrick;
+}
+form{
+	margin-top: 90px;
+	border-radius: 10px;
+	height: 500px;
+	width: 600px;
+	border: solid firebrick;
+}
+.in2{
+	position: absolute;
+	margin-top: -435px;
+	margin-left: 300px;
+}
+.in22{
+	position: absolute;
+	margin-top: -435px;
+	margin-left: 905px;
+}
+form p{
+	font-size: 25px;
+	margin-top: 70px;
+}
+form input{
+	width: 400px;
+}
+form select{
+	width: 340px;
+	height: 25px;
+}
+form button{
+	width: 100px;
+	height: 50px;
+	background-color: lightgray;
+}
+form .e{
+	font-size: 20px;
+	margin-top: 10px;
+}
+form a{
+	text-decoration: none;
+}
+.fifi{
+	background-color: lightgray;
+	margin-top: 100px;
+	border-radius: 10px;
+	border: solid lightgray;
+	height: 370px;
+	width: 500px;
+}
+.fifi p{
+	font-size: 23px;
+	font-family: fantasy;
+	margin-top: 50px;
+	color: firebrick;
+}
+.fifi .po{
+	font-size: 23px;
+	font-family: fantasy;
+	margin-top: 10px;
+	color: firebrick;
+}
+.fifi button{
+	background-color: lightcoral;
+}
+.fifi button:hover{
+	background-color: lightsalmon;
+}
+.iman{
+	position: absolute;
+	margin-top: -400px;
+	margin-left: 370px;
+}
+.iman1{
+	position: absolute;
+	margin-top: -400px;
+	margin-left: 870px;
+}
+.iman2{
+	position: absolute;
+	margin-top: -70px;
+	margin-left: 870px;
+}
+.iman3{
+	position: absolute;
+	margin-top: -70px;
+	margin-left: 370px;
+}
+.forn{
+	margin-top: 90px;
+	border-radius: 10px;
+	height: 500px;
+	width: 600px;
+	border: solid firebrick;
+}
+.in2{
+	position: absolute;
+	margin-top: -540px;
+	margin-left: 300px;
+}
+.in22{
+	position: absolute;
+	margin-top: -540px;
+	margin-left: 905px;
+}
+.forn p{
+	font-size: 25px;
+	margin-top: 70px;
+}
+.forn input{
+	width: 400px;
+}
+.forn select{
+	width: 340px;
+	height: 25px;
+}
+.forn .cici{
+	width: 370px;
+	height: 25px;
+}
+.forn button{
+	width: 100px;
+	height: 50px;
+	background-color: lightgray;
+}
+.forn .e{
+	font-size: 20px;
+	margin-top: 10px;
+}
+.forn a{
+	text-decoration: none;
+}
+
+video{
+	height: 500px;
+	width: 900px;
+	margin-top: 200px;
+	margin-left: 220px;
+}
+
+.in43{
+	position: absolute;
+	margin-top: 140px;
+	margin-left: -990px;
+}
+.in34{
+	position: absolute;
+	margin-top: 140px;
+	margin-left: -90px;
+}
